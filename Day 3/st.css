@@ -1,0 +1,50 @@
+.A{ position:relative;
+    width: 80%;
+    margin-top: 30px;
+margin-left :130px; 
+    border-width: 3px;
+    height: 700px;
+    border-color:aqua;
+    border-style:groove;
+}
+.Intro{
+    color:aqua;
+    margin-left:39%;
+    margin-top: -24px;
+    border-style:solid;
+    border-color:white;
+    background-color: white;
+    width: 265px;
+    font-size: 42px;
+    font-style: italic;
+}
+.one{
+    height: 600px;
+    position:static;
+    margin-left: 20px;
+    border-left: hidden;
+    border-top: hidden;
+    border-bottom: hidden;
+    border-color: turquoise;
+    padding-right: 13px; 
+    border-width: 0px 2px 0px 0px;
+    border-style: solid;
+    width: 500px;
+    color: rgb(56, 57, 61);
+
+
+}
+h3{
+    color: teal;
+}
+.two{
+    position:relative;
+    top: -602px;
+    margin-left: 550px;
+    border-width: 0px;
+    border-style: solid;
+    width: 400px;
+    color: rgb(56, 57, 61);
+}
+
+
