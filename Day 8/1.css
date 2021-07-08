@@ -1,0 +1,155 @@
+/* // delete the following line if no text is used */
+ /* edit the line if you wanna use other fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+ /* use only the available space inside the 400x400 frame */
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background:linear-gradient(45deg, #00666B, #052829);
+}
+
+.center {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%,-50%);	
+}
+.number{
+	position: relative;
+	width: 200px;
+	height: 60px;
+}
+.zero1{
+	position:absolute;
+	background:transparent;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	border:20px solid #FF9933;
+	top:0px;
+	left:108px;
+	bottom:0px;
+	right:0px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.01);
+    animation-duration:8s;
+    animation-name:three;
+}
+.zero{
+	position:absolute;
+	background:transparent;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	border:20px solid #FF9933;
+	top:0px;
+	left:44px;
+	bottom:0px;
+	right:0px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	z-index:2;
+    animation-duration: 8s;
+    animation-name: four;
+}
+.one{
+	position:absolute;
+	background:#FF9933;
+	width:20px;
+	height:80px;
+	top:0;
+	left:29px;
+	bottom:0px;
+	right:0px;
+	border-radius:3px;
+	z-index:5;
+	box-shadow:4px 8px 16px 0px rgba(0,0,0,0.1);
+    animation-duration: 3s;
+    animation-name: one;
+}
+.slash{
+	position:absolute;
+	width:20px;
+	height:40px;
+	background:#FF9933;
+	border-radius:3px;
+	transform:rotate(49deg);
+	inset:0px 0px 0px 13px;
+	box-shadow:4px 8px 16px 0px rgba(0,0,0,0.1);
+    animation-duration: 6s;
+    animation-name: two;
+}
+h2{
+	color:white;
+	position:absolute;
+	top:17px;
+	bottom:0px;
+	left:23px;
+  font-size: 3.9rem;
+	height: 3rem;	
+    animation-name: slide;
+    animation-duration: 10s;
+}
+h3{
+	color:#FF8400;
+	position:absolute;
+	font-size:1.2rem;
+	top:121px;
+	bottom:0px;
+	left:28px;
+    animation-duration: 10s;
+    animation-name: slide;
+
+}
+@keyframes slide{
+    0%{opacity: 0;
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+@keyframes one{
+    from{
+        top:-100%;
+    }
+    to{
+        top:0%;
+
+    }
+}
+@keyframes two{
+    from{
+        left: -100%;
+    }to{
+        left: 6%;
+    }
+}
+@keyframes three{
+    from{
+        left:100%;
+    }
+    to{
+        right:10%;
+    }
+}
+@keyframes four{
+    from{
+        top:400%;
+    }
+    to{
+        top:0%;
+    }
+}
