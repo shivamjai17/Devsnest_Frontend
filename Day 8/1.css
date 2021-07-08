@@ -45,7 +45,7 @@
 	bottom:0px;
 	right:0px;
 	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.01);
-    animation-duration:8s;
+    animation-duration:5s;
     animation-name:three;
 }
 .zero{
@@ -61,7 +61,7 @@
 	right:0px;
 	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
 	z-index:2;
-    animation-duration: 8s;
+    animation-duration: 5s;
     animation-name: four;
 }
 .one{
@@ -88,7 +88,7 @@
 	transform:rotate(49deg);
 	inset:0px 0px 0px 13px;
 	box-shadow:4px 8px 16px 0px rgba(0,0,0,0.1);
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-name: two;
 }
 h2{
@@ -100,7 +100,7 @@ h2{
   font-size: 3.9rem;
 	height: 3rem;	
     animation-name: slide;
-    animation-duration: 10s;
+    animation-duration: 7s;
 }
 h3{
 	color:#FF8400;
