@@ -1,0 +1,56 @@
+body{
+    background-color: #242333;
+    color: white;
+}
+h2{position:absolute;
+
+    height: 100px;
+    width: 550px;
+font-size:3rem ;
+    inset: -10px 0px 0px 481px;
+}
+.box{
+    position: absolute;
+
+    height: 300px;
+    width: 1080px;
+    padding: 7px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px 110px 110px 110px 110px 110px 110px;
+    grid-template-rows: 80px 80px 80px 80px;
+}
+.item{
+    
+background-color:#444451;
+height: 60px;
+width: 50px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border: 2px solid wheat; 
+}
+.box .item:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.box .clicked{
+    background-color: #fff;
+}
+.showcash{
+
+    position: relative;
+    background-color: rgba(0,0,0,0.1);
+    padding: 5px 10px ;
+    border-radius: 5px;
+    font-size: 19px;
+    color: #A8A9AD;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    top: 120px;
+    left: 38%;
+
+
+}
