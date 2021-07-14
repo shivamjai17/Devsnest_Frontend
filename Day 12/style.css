@@ -1,0 +1,79 @@
+body {
+    min-height: 450px;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(ellipse farthest-corner at center top, #f39264 0%, #f2606f 100%);
+
+    font-family: 'Nunito', serif;
+  }
+  h1{
+      color: black;
+  }
+  button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+
+  }
+.full{
+  padding: 3rem; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  height: 500px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 7px 30px rgba(62, 9, 11, .3);
+}
+.coverimgae{
+    background: url(https://cdn.shopify.com/s/files/1/0041/5989/7698/articles/not_to_do_list_insta_1080x.png?v=1597426957);
+    height: 282px;
+    background-size: cover;
+    background-position: 10% 20%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    margin-bottom: 5px;
+}
+#in{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+
+    outline: none;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0 10px 0 5px;
+    border-bottom: 1px solid #8e979c;
+}
+#delete:hover{
+background-color: rgb(243, 16, 16);
+color: white;
+transform: scale(1.2);
+}
+#add{
+    font-size:22px;
+    margin-right:-10px ;
+    border: 2px solid green;
+}
+.paragraph-styling{
+    cursor: pointer;
+    margin:1em;   
+    font-size: 1em;
+    color: black;
+    
+}
+#addcontainer{
+    border: 1px solid #fff;
+    margin-top: 2.5em;
+    color: black;
+    background-color: white;
+
+}
+
