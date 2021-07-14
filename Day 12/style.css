@@ -53,8 +53,8 @@ body {
     border-bottom: 1px solid #8e979c;
 }
 #delete:hover{
-background-color: rgb(243, 16, 16);
-color: white;
+background-color:#dc3545;
+
 transform: scale(1.2);
 }
 #add{
