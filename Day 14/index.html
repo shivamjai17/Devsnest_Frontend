@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div>
+        <button onclick="myclick()">Click me</button>
+    </div>
+    <button onclick="displayDate()">The time is?</button>
+    <p id="demo"></p>
+    <button id="color">Change color</button>
+    <div>
+        <p class="hover" onmouseover="mouseOverEvents()" onmouseout="mouseOutEvents()"></p>
+    </div>
+    <input  id="in"  placeholder="key up" onkeyup="keyUp()">
+    <input  id="in1" placeholder="key down" onkeydown="keydown()">
+    <script src="./main.js"></script>
+</body>
+
+</html>
